@@ -11,10 +11,10 @@ const App = () => {
   return (
     <div className="parent">
       {/* Do not remove the main div */}
-      <h1>parent Component</h1>
+      <h1>Parent Component</h1>
       <ChildComponent1 setOption={handleSelectedOption} />
       <ChildComponent2 setOption={handleSelectedOption} />
-      <p>Selected Option :{selectedOption}</p>
+      <p>Selected Option: {selectedOption}</p>
     </div>
   );
 };
