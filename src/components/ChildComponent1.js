@@ -7,3 +7,4 @@ export default function ChildComponent1({ setOption }) {
     </div>
   );
 }
+
